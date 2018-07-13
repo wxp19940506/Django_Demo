@@ -21,5 +21,6 @@ from djpager import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url("^index/$",views.index),
+    url("^base/$",views.base),
 
 ]
